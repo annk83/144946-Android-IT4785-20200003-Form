@@ -12,7 +12,7 @@ import androidx.core.view.isEmpty
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.noconstraint)
 
         val tou = findViewById<CheckBox>(R.id.tou)
         val lname = findViewById<EditText>(R.id.lname)
